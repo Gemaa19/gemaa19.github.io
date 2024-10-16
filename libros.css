@@ -5,6 +5,7 @@ h1{
 body{
     text-align: justify;
 }
-:root{
-    background-color:rgb(203, 255, 238)
+img{
+    margin: auto;
+    width: 15%;
 }
