@@ -1,10 +1,28 @@
 h1{
-    color: rgb(0, 0, 143);
+    color: rgb(143, 0, 88);
     text-align: center;
 }
+h2{
+    border-bottom: 5px rgb(233, 132, 0) solid;
+}
+h3{
+    font-size:large;
+    font-family: monospace;
+    text-decoration: underline double purple;
+}
 body{
+    text-align: center;
+}
+p,h2{
+    text-align: justify;
+}
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
 }
 img{
     width: 15%;
+}
+:root{
+    background-color: rgb(255, 215, 169);
 }
