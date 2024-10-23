@@ -17,11 +17,23 @@ p,h2{
     text-align: justify;
 }
 li{
+    display: inline-block;
+    width: 20%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(156, 105, 190);
+    color: white;
+    border: solid 2px  rgb(143, 0, 88);
+    
+}
+li:hover{
+    background-color: rgb(255, 206, 255);
+    color:  rgb(124, 73, 158);
 }
 img{
-    width: 15%;
+    width: 170px;
+    height: 200px;
 }
 :root{
     background-color: rgb(255, 215, 169);
