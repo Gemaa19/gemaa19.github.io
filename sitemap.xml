@@ -8,9 +8,14 @@
 
 <url>
   <loc>https://gemaa19.github.io/</loc>
-  <lastmod>2024-10-16T07:32:08+02:00</lastmod>
+  <lastmod>2024-10-30T07:32:08+02:00</lastmod>
   <priority>1.00</priority>
 </url>
 
+<url>
+  <loc>https://gemaa19.github.io/enlaces</loc>
+ <lastmod>2024-10-30T07:59:09+02:00</lastmod>
+  <priority>0.08</priority>
+</url>
 
 </urlset>
