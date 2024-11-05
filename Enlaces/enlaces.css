@@ -1,3 +1,62 @@
-li{
-    
+:root {
+    background-color: rgb(247, 214, 176);
 }
+h1 {
+    color: rgb(143, 0, 88);
+    text-align: center;
+}
+.indice{
+    display: inline-block;
+    width: 24%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(194, 83, 151);
+    color: white;
+    border: solid 2px rgb(143, 0, 88);
+    text-decoration: none;
+}
+.indice:hover {
+    background-color: rgb(255, 206, 255);
+    color: rgb(124, 73, 158);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.intro{
+font-size: 25px;
+text-align: center;
+}
+h2{
+    display: inline;
+    border: 3px rgb(100, 7, 88) solid;
+    color: rgb(116, 6, 74);
+    padding: 5px;
+    background-color: rgb(243, 178, 216);
+}
+h3 {
+    font-size: 25px;
+    font-family: monospace;
+color: rgb(71, 9, 48);
+}
+li{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgba(109, 6, 75, 0.753);
+    list-style-type: none;
+}
+h4{
+font-size: 20px;
+}
+h5{
+font-size: 15px;
+font-family: cursive;
+}
+
+
+
+
+
+
