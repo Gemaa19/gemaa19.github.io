@@ -49,14 +49,7 @@ ol {
 
 .indice:hover {
     text-decoration: underline rgb(243, 190, 234);
-    ;
     color: rgb(243, 190, 234);
-}
-
-article:first-child>p:first-child {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
 }
 
 h2 {
@@ -71,13 +64,29 @@ article {
 }
 
 h3 {
-    font-family: "Sour Gummy";
-    color: rgb(80, 38, 64);
-    font-size: 22px;
+    font-family: "Delius Swash Caps";
+    font-size: 20px;
 }
 
-footer{
+section:last-child p:last-child {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
     color: white;
-    padding: 15px;
-    background-color: rgb(143, 0, 88); 
+    padding: 1px;
+    background-color: rgb(143, 0, 88);
+    font-size: 18px;
+}
+
+footer ol>li {
+    display: inline-block;
+    width: 20%;
+}
+
+footer>p:last-child {
+    text-align: center;
+    color: black;
 }
