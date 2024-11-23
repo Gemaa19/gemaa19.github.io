@@ -1,12 +1,16 @@
 :root {
     background-color: rgba(255, 237, 220, 0.897);
+    width: 95%;
+    margin: auto;
 }
 
 p {
     font-size: 20px;
     text-align: justify;
 }
-
+.versalitas{
+    font-variant: small-caps;
+}
 h1 {
     color: white;
     text-align: center;
@@ -66,6 +70,14 @@ article {
 h3 {
     font-family: "Delius Swash Caps";
     font-size: 20px;
+}
+
+img{
+    display: inline-block;
+}
+
+nav.info{
+    display: inline-block;
 }
 
 section:last-child p:last-child {

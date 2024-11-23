@@ -22,8 +22,6 @@ a {
 
 header {
     border-bottom: 4px solid rgba(109, 6, 75, 0.753);
-    width: 100%;
-    margin: auto;
 }
 
 ol {
@@ -31,31 +29,25 @@ ol {
     text-align: center;
 }
 
-#logo{
-    width: 10%;
-}
-
 .indice {
     display: inline-block;
-    width: 22%;
+    width: 18%;
     font-family: "Chewy";
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 100;
     text-decoration: none;
     margin: 0;
     color: rgba(109, 6, 75, 0.753);
+   
+}
+
+#logo{
+    width: 10%;
 }
 
 .indice:hover {
     text-decoration: underline rgb(243, 190, 234);
-    ;
     color: rgb(243, 190, 234);
-}
-
-article:first-child>p:first-child {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
 }
 
 h2 {
@@ -73,14 +65,26 @@ h3 {
     font-family: "Delius Swash Caps";
     font-size: 20px;
 }
-footer{
-    color: white;
-    padding: 15px;
-    background-color: rgb(143, 0, 88); 
-    list-style-type: none;
+
+section:last-child p:last-child {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
 }
-li:not(.indice) {
-    list-style-type: none;
-    font-size: 20px;
-    width: 100%;
+
+footer {
+    color: white;
+    padding: 1px;
+    background-color: rgb(143, 0, 88);
+    font-size: 18px;
+}
+
+footer ol>li {
+    display: inline-block;
+    width: 20%;
+}
+
+footer>p:last-child {
+    text-align: center;
+    color: black;
 }

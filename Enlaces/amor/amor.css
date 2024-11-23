@@ -1,10 +1,15 @@
 :root {
     background-color: rgba(255, 237, 220, 0.897);
+    width: 95%;
+    margin: auto;
 }
 
 p {
     font-size: 20px;
     text-align: justify;
+}
+.versalitas{
+    font-variant: small-caps;
 }
 
 h1 {
