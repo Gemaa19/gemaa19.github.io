@@ -61,27 +61,19 @@ h2 {
 
 section:nth-child(2) {
     text-align: center;
-    margin: auto;
 }
 
 section:nth-child(2) article {
     box-sizing: border-box;
-    padding: 0 50px;
     display: inline-block;
     width: 20%;
-    margin: 20px 30px;
+    margin: auto;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 article img{
-    width: 90%;
     margin: auto;
-}
-
-img~p{
-    text-align: center;
-    margin: auto;
-    font-size: 15px;
 }
 
 section:first-child>article {
