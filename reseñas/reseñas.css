@@ -64,12 +64,35 @@ h2 {
     text-align: center;
 }
 
+h3{
+    font-family: "Sour Gummy";
+    font-size: 22px;
+}
+
+button{
+    color: white;
+    font-family: "Sour Gummy";
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(143, 0, 88);
+    border: 1px solid rgb(143, 0, 88);
+}
+
+button:hover{
+    color: rgb(143, 0, 88);
+    background-color: white;
+}
+
 main li:not(.indice){
     font-family: "Delius Swash Caps";
     font-size: 20px;
-    list-style: none;
+    
 }
+
 section:first-child>article {
+    border-bottom: 4px solid rgba(109, 6, 75, 0.753);
     border-top: 4px solid rgba(109, 6, 75, 0.753);
 }
 

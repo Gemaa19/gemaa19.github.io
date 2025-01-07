@@ -52,11 +52,6 @@ ol {
     color: rgb(243, 190, 234);
 }
 
-p {
-    font-size: 20px;
-    text-align: justify;
-}
-
 h2 {
     font-family: "Sour Gummy";
     color: rgba(61, 4, 43, 0.801);
@@ -64,12 +59,33 @@ h2 {
     text-align: center;
 }
 
-main li:not(.indice){
-    font-family: "Delius Swash Caps";
-    font-size: 20px;
-    list-style: none;
+section:nth-child(2) {
+    text-align: center;
+    margin: auto;
 }
+
+section:nth-child(2) article {
+    box-sizing: border-box;
+    padding: 0 50px;
+    display: inline-block;
+    width: 20%;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+article img{
+    width: 90%;
+    margin: auto;
+}
+
+img~p{
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
 section:first-child>article {
+    border-bottom: 4px solid rgba(109, 6, 75, 0.753);
     border-top: 4px solid rgba(109, 6, 75, 0.753);
 }
 

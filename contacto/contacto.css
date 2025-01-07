@@ -52,27 +52,16 @@ ol {
     color: rgb(243, 190, 234);
 }
 
-p {
-    font-size: 20px;
-    text-align: justify;
-}
-
 h2 {
     font-family: "Sour Gummy";
     color: rgba(61, 4, 43, 0.801);
     font-size: 25px;
     text-align: center;
 }
-
-main li:not(.indice){
-    font-family: "Delius Swash Caps";
-    font-size: 20px;
-    list-style: none;
-}
 section:first-child>article {
+    border-bottom: 4px solid rgba(109, 6, 75, 0.753);
     border-top: 4px solid rgba(109, 6, 75, 0.753);
 }
-
 section>p{
     font-size: 20px;
     text-align: center;

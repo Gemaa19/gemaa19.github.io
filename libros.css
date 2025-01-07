@@ -1,16 +1,13 @@
 :root {
     background-color: rgba(255, 237, 220, 0.897);
-    width: 95%;
-    margin: auto;
 }
 
-p {
+section:first-child p {
     font-size: 20px;
     text-align: justify;
+    padding: 0 20px;
 }
-.versalitas{
-    font-variant: small-caps;
-}
+
 h1 {
     color: white;
     text-align: center;
@@ -25,7 +22,6 @@ a {
 }
 
 header {
-    border-bottom: 4px solid rgba(109, 6, 75, 0.753);
     width: 100%;
     margin: auto;
 }
@@ -37,7 +33,7 @@ ol {
 
 .indice {
     display: inline-block;
-    width: 18%;
+    width: 13%;
     font-family: "Chewy";
     font-size: 22px;
     font-weight: 100;
@@ -48,7 +44,7 @@ ol {
 }
 
 #logo{
-    width: 10%;
+    width: 9%;
 }
 
 .indice:hover {
@@ -63,16 +59,38 @@ h2 {
     text-align: center;
 }
 
-article {
+section:nth-child(2),section:nth-child(3){
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+section:nth-child(2) article {
+    box-sizing: border-box;
+    padding: 0 50px;
+    display: inline-block;
+    width: 15%;
+    margin: 20px 30px;
+    text-align: center;
+}
+section:nth-child(3)>h2,section:nth-child(4)>h2, section:nth-child(5)>h2{
+    border-top: 4px solid rgba(109, 6, 75, 0.753);
+}
+section:nth-child(3) article {
+    box-sizing: border-box;
+    padding: 0 0;
+    display: inline-block;
+    width: 45%;
+    margin: 0 0;
+    text-align: center;
+}
+
+section:first-child>article {
     border-bottom: 4px solid rgba(109, 6, 75, 0.753);
+    border-top: 4px solid rgba(109, 6, 75, 0.753);
 }
 
-h3 {
-    font-family: "Delius Swash Caps";
-    font-size: 20px;
-}
-
-section:last-child p:last-child {
+section:last-of-type>p {
     font-size: 22px;
     text-align: center;
     font-weight: bold;

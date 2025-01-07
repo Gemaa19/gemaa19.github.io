@@ -52,9 +52,17 @@ ol {
     color: rgb(243, 190, 234);
 }
 
+section:first-child>article {
+    border-bottom: 4px solid rgba(109, 6, 75, 0.753);
+    border-top: 4px solid rgba(109, 6, 75, 0.753);
+}
+
 p {
     font-size: 20px;
     text-align: justify;
+}
+.versalitas{
+    font-variant: small-caps;
 }
 
 h2 {
@@ -64,13 +72,31 @@ h2 {
     text-align: center;
 }
 
-main li:not(.indice){
+h3 {
     font-family: "Delius Swash Caps";
     font-size: 20px;
-    list-style: none;
 }
-section:first-child>article {
-    border-top: 4px solid rgba(109, 6, 75, 0.753);
+
+img:not(#logo){
+    display: inline-block;
+    width: 100px;
+}
+
+nav.info{
+    display: inline-block;
+}
+
+main ol>li, .novelas {
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+h4 {
+    font-family: "Sour Gummy";
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 section>p{
