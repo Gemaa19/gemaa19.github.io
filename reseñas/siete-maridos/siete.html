@@ -24,29 +24,60 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Chewy&family=Delius+Swash+Caps&family=Meow+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <script type="application/ld+json">
-            [
+        {
+            "@context": "https://schema.org",
+            "@type": "Lista de migas de pan",
+            "elementoListaDeArtículos": [
               {
-                "@context": "http://schema.org",
-                "@type": "Book",
-                "name": "Los siete maridos de Evelyn Hugo",
-                "image": "https://gemaa19.github.io/Imagenes/imagenes/portada_siete_maridos.png",
+                "@type": "Elemento de lista",
+                "posición": 1,
+                "nombre": "Inicio",
+                "item": "https://ejemplo.com"
+              },
+              {
+                "@type": "Elemento de lista",
+                "posición": 2,
+                "nombre": "Libros",
+                "item": "https://ejemplo.com/libros"
+              },
+              {
+                "@type": "Elemento de lista",
+                "posición": 3,
+                "nombre": "Ficción",
+                "item": "https://ejemplo.com/libros/ficcion"
+              },
+              {
+                "@type": "Elemento de lista",
+                "posición": 4,
+                "nombre": "Libro final",
+                "item": "https://ejemplo.com/libros/ficcion/libro-final-dos"
+              }
+            ]
+          }
+          <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Book",
+              "name": "Los siete maridos de Evelyn Hugo",
+              "image": "https://gemaa19.github.io/imagenes/portada_siete_maridos.webp",
+              "author": {
+                "@type": "Person",
+                "name": "Taylor Jenkins Reid"
+              },
+              "datePublished": "2017-06-13",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5 estrellas"
+              },
+              "review": {
+                "@type": "Review",
                 "author": {
                   "@type": "Person",
-                  "name": "Taylor Jenkins Reid"
+                  "name": "Gema González Sanz"
                 },
-                "datePublished": "2017-06-13",
-                
-                "review": {
-                  "@type": "Review",
-                  "reviewBody": "Este libro me pareció fascinante; una vez que comienzas, es imposible dejar\n                    de leer. Su narrativa es cautivadora y te envuelve emocionalmente hasta la última página. Es una\n                    obra conmovedora que, además, aborda con sensibilidad temas relevantes para la sociedad. Con una\n                    magistral combinación del pasado y el presente, logra que conectes profundamente con la\n                    protagonista, despertando una empatía genuina.",
-                  "author": {
-                    "@type": "Person",
-                    "name": "Gema González"
-                  },
-                }
+                "reviewBody": "Evelyn Hugo, el icono de Hollywood que se ha recluido a su edad madura, por fin decide contar la verdad sobre su vida llena de glamour y de escándalos. Pero cuando para ello elige a Monique Grant, una periodista desconocida, nadie se sorprende más que la propia Monique. Monique no está precisamente en su mejor momento. Su marido la abandonó y su vida profesional no avanza. Aun ignorando por qué Evelyn la ha elegido para escribir su biografía, Monique está decidida a aprovechar esa oportunidad para dar impulso a su carrera. Convocada en el lujoso apartamento de Evelyn, Monique escucha fascinada mientras la actriz le cuenta su historia. Desde su llegada a Los Ángeles en los años 50 hasta su decisión de abandonar su carrera en el mundo del espectáculo en los 80 y, desde luego, los siete maridos que tuvo en ese tiempo, Evelyn narra una historia de ambición implacable, amistad inesperada y un gran amor prohibido. Monique empieza a sentir una conexión muy real con la legendaria actriz, pero cuando el relato de Evelyn se acerca a su fin, resulta evidente que su vida se cruza con la de Monique de un modo trágico e irreversible."
+              }
             }
-            ]
             </script>
 </head>
 <body>
