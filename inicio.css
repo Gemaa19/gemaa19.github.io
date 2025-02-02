@@ -212,6 +212,10 @@ footer>p:last-child {
         font-size: 25px;
     }
 
+    div{
+        width: 18%;
+    }
+
     section:nth-child(2) article:first-of-type,
     section:nth-child(2) article:nth-of-type(2),
     section:nth-child(3) article,
