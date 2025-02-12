@@ -23,43 +23,54 @@
         <h1 id="arriba">RECOMENDACIONES DE LIBROS DE AMOR Y SUSPENSE</h1>
         <nav>
             <ol>
-                <li class="indice" id="logo"><img src="../imagenes/libros-Photoroom.png" alt="Dibujo libros" width="80%"height="80%"></li><li class="indice"><a href="../index.html" title="Ir a página libros de inicio">Inicio</li><li class="indice"><a href="../amor/index.html" title="Ir a página libros de amor">Amor</a></li><li class="indice"><a href="../suspense/index.html" title="Bajar donde comienza la sección">Suspense</a></li><li class="indice"><a href="../reseñas/index.html" title="Ir a reseñas">Reseñas</a></li><li class="indice"><a href="../autores/index.html" title="Ir a página libros por autor">Autores</a></li><li class="indice"><a href="#contacto" title="Ir a página de contacto">Contacto</a></li><li class="indice"><a href="../Enlaces/index.html" title="Ir a otra página de interés">Páginas de interés</a></li>
+                <li><img src="../imagenes/libros-Photoroom.png" alt="Dibujo libros" width="80%" height="80%"></li>
+                <li><a href="../index.html" title="Ir a página libros de inicio">Inicio</li>
+                <li><a href="../amor/amor.html" title="Ir a página libros de amor">Amor</a></li>
+                <li><a href="../suspense/suspense.html" title="Bajar donde comienza la sección">Suspense</a></li>
+                <li><a href="../autores/autores.html" title="Ir a página libros por autor">Autores</a></li>
+                <li><a href="#contacto" title="Ir a página de contacto">Contacto</a></li>
+                <li><a href="../enlaces/enlaces.html" title="Ir a otra página de interés">Páginas de interés</a></li>
             </ol>
         </nav>
     </header>
-    <main><main>
-        <section>
-            <article>
-                <h2>¿No sabes que leer?</h2>
-                <p>Bienvenidos a nuestro espacio dedicado a los apasionados de la lectura, donde cada libro recomendado
-                    está cuidadosamente seleccionado para hacerte vibrar. Aquí encontrarás una cuidadosa selección de
-                    novelas románticas que te emocionarán y thrillers que te mantendrán en suspense hasta la última
-                    página. Si disfrutas de las historias intensas, los giros inesperados y los personajes inolvidables,
-                    este es tu lugar ideal.</p>
-                <p>Explora autores fascinantes, descubre tramas que te envolverán desde el primer capítulo y sumérgete
-                    en mundos donde el amor y el misterio se entrelazan. Además, para hacer tu experiencia aún más
-                    sencilla, incluimos enlaces directos a las mejores tiendas para que puedas adquirir tus próximos
-                    favoritos sin complicaciones. Déjate guiar por nuestras recomendaciones y prepárate para disfrutar
-                    de una aventura literaria única. ¡Tu próxima gran lectura te espera!</p>
-            </article>
-        </section>
-        <section>
-            <article>
-                <h2 id="contacto">Contacta con nosotros</h2>
-            </article>
-            <p><a href="#arriba">Volver arriba</a></p>
-        </section>
-    </main>
+    <main>
+        <main>
+            <section>
+                <article>
+                    <h2 id="contacto">Contacta con nosotros</h2>
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="asunto">Asunto:</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="consulta">Consulta</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="recomendacion">Recomendación de libro</option>
+                        </select>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
+                    <p><a href="#arriba">Volver arriba</a></p>
+                </article>
+            </section>
+        </main>
     </main>
     <footer>
         <nav>
             <ol>
-                <li>Contacto</li>
                 <li>Política de privacidad</li>
+                <li>Política de cookies</li>
                 <li>Sobre nosotros</li>
+                <li>&copy Gema González Sanz</li>
             </ol>
         </nav>
-        <p>&copy Gema González Sanz</p>
     </footer>
 </body>
 

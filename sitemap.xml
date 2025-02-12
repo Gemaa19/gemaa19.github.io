@@ -31,15 +31,39 @@
 </url>
 
 <url>
-  <loc>https://gemaa19.github.io/contacto</loc>
+  <loc>https://gemaa19.github.io/autores/elisabet-benavent</loc>
   <lastmod>2025-01-27T07:32:12:08:00</lastmod>
   <priority>0.08</priority>
 </url>
 
 <url>
-  <loc>https://gemaa19.github.io/enlaces</loc>
+  <loc>https://gemaa19.github.io/autores/elisabet-benavent/karma</loc>
   <lastmod>2025-01-27T07:32:12:08:00</lastmod>
   <priority>0.08</priority>
+</url>
+
+<url>
+  <loc>https://gemaa19.github.io/autores/freida-mcfadden</loc>
+  <lastmod>2025-01-27T07:32:12:08:00</lastmod>
+  <priority>0.08</priority>
+</url>
+
+<url>
+  <loc>https://gemaa19.github.io/autores/taylor-jenkins/siete-maridos</loc>
+  <lastmod>2025-01-27T07:32:12:08:00</lastmod>
+  <priority>0.08</priority>
+</url>
+
+<url>
+  <loc>https://gemaa19.github.io/contacto</loc>
+  <lastmod>2025-01-27T07:32:12:08:00</lastmod>
+  <priority>0.06</priority>
+</url>
+
+<url>
+  <loc>https://gemaa19.github.io/enlaces</loc>
+  <lastmod>2025-01-27T07:32:12:08:00</lastmod>
+  <priority>0.06</priority>
 </url>
 
 </urlset>
