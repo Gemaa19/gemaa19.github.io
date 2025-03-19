@@ -128,7 +128,7 @@ section:last-of-type article>p:last-child {
 footer {
     color: white;
     padding: 1px;
-    background-color: rgb(143, 0, 88);
+    background-color: rgb(92,0,63);
     font-size: 18px;
 }
 
@@ -146,7 +146,7 @@ footer li {
 }
 
 footer li:last-child {
-    color: rgb(180, 142, 182);
+    color: rgb(231,162,231);
     margin-top: 20px;
 }
 
