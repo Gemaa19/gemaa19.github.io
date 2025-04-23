@@ -83,7 +83,7 @@ p {
 }
 
 section:first-child p {
-    text-align: justify;
+    text-align: center;
 }
 
 section:not(:first-child) article {
