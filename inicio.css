@@ -121,7 +121,7 @@ section:last-of-type p:first-of-type {
 section:last-of-type article>p:last-child {
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
 }
 
