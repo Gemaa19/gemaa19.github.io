@@ -51,7 +51,6 @@ header li:last-of-type {
 }
 
 header li:nth-of-type(2) {
-    text-decoration: underline rgb(192, 96, 176);
     color: rgb(192, 96, 176);
 }
 
@@ -121,7 +120,7 @@ section:last-of-type p:first-of-type {
 section:last-of-type article>p:last-child {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
 }
 
