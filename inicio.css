@@ -1,80 +1,10 @@
-:root {
-    background-color: rgba(255, 237, 220, 0.897);
-}
-
-body {
-    margin: auto;
-    width: 95%;
-}
-
-header {
-    width: 100%;
-    margin: auto;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    padding: 15px;
-    background-color: rgb(143, 0, 88);
-    font-size: 30px;
-}
-
-header ol {
-    text-align: center;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    align-items: flex-end;
-}
-
-header li:first-of-type{
-    width: 10%;
-}
-
-header li {
-    font-family: "Chewy";
-    text-decoration: none;
-    color: rgba(109, 6, 75, 0.753);
-    font-size: 22px;
-    font-weight: 100;
-    width: 14%;
-
-}
-
-header li:last-of-type {
-    width: 16%;
-}
-
 header li:nth-of-type(2) {
     color: rgb(192, 96, 176);
 }
 
-header ol img {
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
 section:first-child {
     border-bottom: 4px solid rgba(109, 6, 75, 0.753);
     border-top: 4px solid rgba(109, 6, 75, 0.753);
-}
-
-h2 {
-    font-family: "Sour Gummy";
-    color: rgba(61, 4, 43, 0.801);
-    text-align: center;
-    font-size: 25px;
-    width: 100%;
 }
 
 p {
@@ -82,7 +12,7 @@ p {
 }
 
 section:first-child p {
-    text-align: center;
+    text-align: justify;
 }
 
 section:not(:first-child) article {
@@ -120,33 +50,8 @@ section:last-of-type p:first-of-type {
 section:last-of-type article>p:last-child {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     width: 100%;
-}
-
-footer {
-    color: white;
-    padding: 1px;
-    background-color: rgb(92,0,63);
-    font-size: 18px;
-}
-
-footer ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-footer li {
-    list-style-type: none;
-    width: 30%;
-}
-
-footer li:last-child {
-    color: rgb(231,162,231);
-    margin-top: 20px;
 }
 
 @media(max-width:520px) {
