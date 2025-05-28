@@ -25,31 +25,6 @@ img:not(header img) {
     width: 100%;
 }
 
-footer {
-    color: white;
-    padding: 1px;
-    background-color: rgb(143, 0, 88);
-    font-size: 18px;
-}
-
-footer ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-footer li {
-    list-style-type: none;
-    width: 30%;
-}
-
-footer li:last-child {
-    color: rgb(180, 142, 182);
-    margin-top: 20px;
-}
-
 @media(max-width:520px) {
     h1 {
         font-size: 20px;
