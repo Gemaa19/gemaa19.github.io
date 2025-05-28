@@ -1,7 +1,9 @@
 header li:nth-of-type(4) {
     color: rgb(192, 96, 176);
 }
-
+    h2{
+border-top: 4px solid rgba(109, 6, 75, 0.753);
+}
 p {
     font-size: 20px;
     text-align: center;
