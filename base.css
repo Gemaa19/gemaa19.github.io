@@ -58,6 +58,13 @@ a {
     text-decoration: none;
     color: inherit;
 }
+#saltarMenu{
+position:absolute;
+    left: -1000px;
+}
+#saltarMenu:focus{
+    position:static;
+}
 h2 {
     font-family: "Sour Gummy";
     color: rgba(61, 4, 43, 0.801);
