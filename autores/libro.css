@@ -138,13 +138,6 @@ button:hover{
     background-color: white;
 }
 
-article>p:last-child {
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    width: 100%;
-}
-
 footer {
     color: white;
     padding: 1px;
