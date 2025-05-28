@@ -64,6 +64,7 @@ position:absolute;
 }
 #saltarMenu:focus{
     position:static;
+    left: auto;
 }
 h2 {
     font-family: "Sour Gummy";
