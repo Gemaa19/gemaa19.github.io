@@ -15,23 +15,25 @@ article {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-content: space-evenly;
 }
 
 div {
-    width: 40%;
+    width: 25%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 img:not(header img) {
     margin: auto;
-    width: 50%;
+    width: 100px;
 }
 
-section article>p:last-child {
+section>p:last-child {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
 }
 @media(max-width:520px) {
