@@ -16,7 +16,7 @@ h1 {
     color: white;
     text-align: center;
     padding: 15px;
-    background-color: rgb(143, 0, 88);
+    background-color: rgba(143, 0, 88);
     font-size: 30px;
 }
 
@@ -68,7 +68,7 @@ h2 {
 footer {
     color: white;
     padding: 1px;
-    background-color: rgab(77, 0, 47);
+    background-color: rgba(77, 0, 47);
     font-size: 18px;
 }
 
@@ -86,6 +86,6 @@ footer li {
 }
 
 footer li:last-child {
-    color: rgb(230, 167, 236);
+    color: rgba(230, 167, 236);
     margin-top: 20px;
 }
