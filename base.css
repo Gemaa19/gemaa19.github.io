@@ -72,6 +72,11 @@ h2 {
     font-size: 25px;
     width: 100%;
 }
+section:last-of-type>p:last-child {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
 footer {
     color: white;
     padding: 1px;
