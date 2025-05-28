@@ -27,11 +27,7 @@ article li {
     list-style: none;
 }
 
-article>p{
-    font-weight: bold;
-    font-size: 22px;
-    width: 100%;
-    text-align: center;
+section>p:nth-last-of-type{
     margin-top:50px;
 }
 
