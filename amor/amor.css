@@ -1,7 +1,8 @@
 header li:nth-of-type(3) {
     color: rgb(192, 96, 176);
 }
-
+h2{
+    border-top: 3px solid rgb(192, 96, 176);
 p {
     font-size: 20px;
     text-align: center;
