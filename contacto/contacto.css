@@ -45,14 +45,9 @@ button {
     background-color: rgb(138, 83, 112);
 }
 
-article>p {
-    font-weight: bold;
-    font-size: 22px;
-    width: 100%;
-    text-align: center;
+section>p:nth-last-of-type {
     margin-top: 50px;
 }
-
 
 @media(max-width:520px) {
     h1 {
