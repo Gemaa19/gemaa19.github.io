@@ -24,7 +24,7 @@
         <h1 id="arriba">RECOMENDACIONES DE LIBROS DE AMOR Y SUSPENSE</h1>
         <nav>
             <ol>
-                <li><img src="../imagenes/libros-Photoroom.png" alt="Dibujo libros" width="80%" height="80%"></li>
+                <li><img src="../imagenes/libros-Photoroom.png" alt="Dibujo libros" width="80" height="80"></li>
                 <li><a href="../index.html" title="Ir a página libros de inicio">Inicio</a></li>
                 <li><a href="../amor/amor.html" title="Ir a página libros de amor">Amor</a></li>
                 <li><a href="../suspense/suspense.html" title="Bajar donde comienza la sección">Suspense</a></li>
@@ -35,10 +35,9 @@
         </nav>
     </header>
     <main>
-        <main>
             <section>
-                <article>
-                    <h2 id="contacto">Contacta con nosotros</h2>
+                <h2 id="contacto">Contacta con nosotros</h2>
+                <div>
                     <form action="#" method="post">
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" required>
@@ -48,6 +47,7 @@
 
                         <label for="asunto">Asunto:</label>
                         <select id="asunto" name="asunto" required>
+                            <option value="" disabled selected>Selecciona el motivo de contacto</option>
                             <option value="consulta">Consulta</option>
                             <option value="sugerencia">Sugerencia</option>
                             <option value="recomendacion">Recomendación de libro</option>
@@ -59,9 +59,8 @@
                         <button type="submit">Enviar mensaje</button>
                     </form>
                     <p><a href="#arriba">Volver arriba</a></p>
-                </article>
+                </div>
             </section>
-        </main>
     </main>
     <footer>
         <nav>
@@ -69,7 +68,7 @@
                 <li>Política de privacidad</li>
                 <li>Política de cookies</li>
                 <li>Sobre nosotros</li>
-                <li>&copy Gema González Sanz</li>
+                <li>&copy; Gema González Sanz</li>
             </ol>
         </nav>
     </footer>
