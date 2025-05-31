@@ -11,11 +11,11 @@ p {
     font-size: 20px;
 }
 
-section:first-child p {
+section p {
     text-align: center;
 }
 
-section:not(:first-child) article {
+section:not(:first-child) div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -23,13 +23,14 @@ section:not(:first-child) article {
     align-content: space-evenly;
 }
 
-section:nth-child(3)>article h2,
-section:nth-child(4)>article h2 {
+section:nth-child(3) h2,
+section:nth-child(4) h2,
+section:nth-child(5) h2 {
     border-top: 4px solid rgba(109, 6, 75, 0.753);
     padding-top: 20px;
 }
 
-div {
+div>div {
     width: 18%;
 }
 
@@ -74,7 +75,7 @@ section:last-of-type p:first-of-type {
         font-size: 18px;
     }
 
-    div {
+    div>div {
         width: 30%;
     }    
 }
