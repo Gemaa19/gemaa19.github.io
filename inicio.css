@@ -27,7 +27,6 @@ section:nth-child(3) h2,
 section:nth-child(4) h2,
 section:nth-child(5) h2 {
     border-top: 4px solid rgba(109, 6, 75, 0.753);
-    padding-top: 20px;
 }
 
 div>div {

@@ -27,10 +27,6 @@ article li {
     list-style: none;
 }
 
-section>p:nth-last-of-type{
-    margin-top:50px;
-}
-
 @media(max-width:520px) {
     h1 {
         font-size: 20px;
