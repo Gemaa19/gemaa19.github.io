@@ -102,4 +102,32 @@ footer li {
 footer li:last-child {
     color: rgba(230, 167, 236);
     margin-top: 20px;
+
+@media(max-width:520px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    header ol {
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content:start;
+    }
+
+    header li:first-child{
+        display: none;
+    }
+
+    header li, header li:last-of-type{
+        width: 50%;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    p, h2{
+        font-size: 18px;
+    }
+}
 }
