@@ -8,15 +8,18 @@ section:first-of-type {
 }
 
 form {
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+div{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: space-around;
-    font-size: 20px;
-    width: 80%;
-    margin: auto;
-    text-align: justify;
 }
 
 label {
