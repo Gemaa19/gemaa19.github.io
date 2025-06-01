@@ -78,13 +78,6 @@ button:hover {
     background-color: white;
 }
 
-article>p:last-child {
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    width: 100%;
-}
-
 @media(max-width:520px) {
     h1 {
         font-size: 20px;
@@ -128,11 +121,12 @@ article>p:last-child {
         width:100%;
     }
     section img {
-        width: 40%;
+        width: 90%;
     }
 
     p {
         font-size: 18px;
+        width:90%;
     }
 
 
