@@ -7,7 +7,7 @@ p {
     text-align: center;
 }
 
-div {
+section>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -58,8 +58,12 @@ img:not(header img) {
     p, h2{
         font-size: 18px;
     }
-
+section>div {
+    display: flex;
+    flex-direction: column;
+}
     div>div {
-        width: 30%;
+        width: 100%;
+        padding-bottom: 20px;
     }    
 }
