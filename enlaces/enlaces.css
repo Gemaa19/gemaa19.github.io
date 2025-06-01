@@ -6,12 +6,12 @@ section:first-of-type{
     border-top: 4px solid rgba(109, 6, 75, 0.753);
 }
 
-article nav{
+section>nav, article nav{
     padding: 0;
     margin: 0;
 }
 
-article ol {
+section>nav ol, article ol {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -20,7 +20,7 @@ article ol {
     margin: 0;
 }
 
-article li {
+section>nav li, article li {
     width: 100%;
     font-family: "Delius Swash Caps";
     font-size: 20px;
@@ -50,7 +50,7 @@ article li {
         margin-left: 20px;
         font-size: 18px;
     }
-    article li, h2{
+    section>nav li, article li, h2{
         font-size: 18px;
     }   
 }
